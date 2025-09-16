@@ -8,13 +8,15 @@ import { View, Button, Text } from 'react-native';
 //  import Styling from './src/components/Styling'
 // import FlatListScreen from './src/components/FlatListScreen'
 // import SectionListScreen from './src/components/SectionListScreen'
-import LoginForm from './src/components/LoginForm'
+// import LoginForm from './src/components/LoginForm'
+// import ContactListScreen from './src/screens/Contact/ContactListScreen'
+import Grid from './src/components/Grid';
 
 
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex:1}} >
       {/* {/* <Text style={ { fontSize : 30 } } >Zaeem Rehman</Text>
       <Text style={ { fontSize : 30 } } >Mobile App Developer</Text> */}
       {/* <OnPress /> */}
@@ -24,7 +26,9 @@ const App = () => {
       {/* <Styling /> */}
       {/* <FlatListScreen /> */}
       {/* <SectionListScreen /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      {/* <ContactListScreen /> */}
+      <Grid />
 
   
 
