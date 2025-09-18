@@ -13,15 +13,16 @@ import { View, Button, Text } from 'react-native';
 // import Grid from './src/components/Grid';
 // import ClassComponents from './src/components/ClassComponents'
 // import UseEffectHook from './src/components/UseEffectHook';
-import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase'
-
+// import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase'
+// import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmountingPhase'
+import HideShowToggle from './src/components/HideShowToggle'
 
 
 const App = () => {
   return (
     <View style={{flex:1}} >
       {/* {/* <Text style={ { fontSize : 30 } } >Zaeem Rehman</Text>
-      <Text style={ { fontSize : 30 } } >Mobile App Developer</Text> */}
+      <Text style={ { fontSize : 30 } } >React Native Developer</Text> */}
       {/* <OnPress /> */}
       {/* <UseStateHooks /> */}
       {/* <Props /> */}
@@ -34,7 +35,9 @@ const App = () => {
       {/* <Grid /> */}
       {/* <ClassComponents /> */}
       {/* <UseEffectHook /> */}
-      <UseEffectHookUpdatingPhase />
+      {/* <UseEffectHookUpdatingPhase /> */}
+      {/* <UseEffectHookUnmountingPhase /> */}
+      <HideShowToggle />
 
   
 
