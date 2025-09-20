@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
 
 const My = () => {
   return (
     <View>
-      <Text>My</Text>
+      <Text style={{fontSize:30}} >My</Text>
     </View>
   );
 };

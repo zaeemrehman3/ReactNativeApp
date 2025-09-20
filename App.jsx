@@ -15,7 +15,10 @@ import { View, Button, Text } from 'react-native';
 // import UseEffectHook from './src/components/UseEffectHook';
 // import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase'
 // import UseEffectHookUnmountingPhase from './src/components/UseEffectHookUnmountingPhase'
-import HideShowToggle from './src/components/HideShowToggle'
+// import HideShowToggle from './src/components/HideShowToggle'
+// import StyleWithButton from './src/components/StyleWithButton'
+// import Loader from './src/components/Loader'
+import PressableComponents from './src/components/PressableComponents'
 
 
 const App = () => {
@@ -37,7 +40,11 @@ const App = () => {
       {/* <UseEffectHook /> */}
       {/* <UseEffectHookUpdatingPhase /> */}
       {/* <UseEffectHookUnmountingPhase /> */}
-      <HideShowToggle />
+      {/* <HideShowToggle /> */}
+      {/* <StyleWithButton /> */}
+      {/* <Loader /> */}
+      <PressableComponents />
+
 
   
 
