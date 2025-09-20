@@ -1,6 +1,6 @@
 import React from 'react';
 // import First from './src/components/First';
-import { View, Button, Text } from 'react-native';
+import { View, Button, Text, StatusBar } from 'react-native';
 // import OnPress from './src/components/OnPress';
 // import UseStateHooks from './src/components/UseStateHooks'
 // import Props from './src/components/Props'
@@ -18,12 +18,24 @@ import { View, Button, Text } from 'react-native';
 // import HideShowToggle from './src/components/HideShowToggle'
 // import StyleWithButton from './src/components/StyleWithButton'
 // import Loader from './src/components/Loader'
-import PressableComponents from './src/components/PressableComponents'
+// import PressableComponents from './src/components/PressableComponents'
+// import StatusBarExample from './src/components/StatusBarExample'
+// import UseRefHook from './src/components/UseRefHook'
+import ModalDialogBox from './src/components/ModalDialogBox'
+
 
 
 const App = () => {
   return (
     <View style={{flex:1}} >
+
+      <StatusBar hidden={true} />
+
+
+
+
+
+
       {/* {/* <Text style={ { fontSize : 30 } } >Zaeem Rehman</Text>
       <Text style={ { fontSize : 30 } } >React Native Developer</Text> */}
       {/* <OnPress /> */}
@@ -43,7 +55,10 @@ const App = () => {
       {/* <HideShowToggle /> */}
       {/* <StyleWithButton /> */}
       {/* <Loader /> */}
-      <PressableComponents />
+      {/* <PressableComponents /> */}
+      {/* <StatusBarExample /> */}
+      {/* <UseRefHook /> */}
+      <ModalDialogBox />
 
 
   
