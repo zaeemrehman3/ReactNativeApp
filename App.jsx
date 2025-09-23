@@ -24,7 +24,9 @@ import { View, Button, Text, StatusBar } from 'react-native';
 // import ModalDialogBox from './src/components/ModalDialogBox'
 // import AlertExample from './src/components/AlertExample'
 // import GET_API from './src/components/GET_API'
-import GET_API_LIST from './src/components/GET_API_LIST'
+// import GET_API_LIST from './src/components/GET_API_LIST'
+// import PlatformExample from './src/components/PlatformExample'
+import Search from './src/components/Search'
 
 
 
@@ -64,7 +66,9 @@ const App = () => {
       {/* <ModalDialogBox /> */}
       {/* <AlertExample /> */}
       {/* <GET_API /> */}
-      <GET_API_LIST />
+      {/* <GET_API_LIST /> */}
+      {/* <PlatformExample /> */}
+      <Search />
 
 
   
