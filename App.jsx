@@ -26,7 +26,10 @@ import { View, Button, Text, StatusBar } from 'react-native';
 // import GET_API from './src/components/GET_API'
 // import GET_API_LIST from './src/components/GET_API_LIST'
 // import PlatformExample from './src/components/PlatformExample'
-import Search from './src/components/Search'
+// import Search from './src/components/Search'
+// import AsyncStorageExample from './src/components/AsyncStorageExample'
+// import ImageComponentExample from './src/components/ImageComponentExample'
+import Parent from './src/components/Parent'
 
 
 
@@ -68,7 +71,10 @@ const App = () => {
       {/* <GET_API /> */}
       {/* <GET_API_LIST /> */}
       {/* <PlatformExample /> */}
-      <Search />
+      {/* <Search /> */}
+      {/* <AsyncStorageExample /> */}
+      {/* <ImageComponentExample /> */}
+      <Parent />
 
 
   
