@@ -32,7 +32,7 @@ import { View, Button, Text, StatusBar } from 'react-native';
 // import ImageComponentExample from './src/components/ImageComponentExample'
 // import Parent from './src/components/Parent'
 // import Counter from './src/components/Counter'
-
+import OneZustand from './src/components/OneZustand'
 
 
 
@@ -82,6 +82,8 @@ const App = () => {
       {/* <Provider store={store} ></Provider> */}
 
       {/* <Counter /> */}
+
+      <OneZustand />
 
 
   
