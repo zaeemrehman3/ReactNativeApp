@@ -1,6 +1,7 @@
 import React from 'react';
 // import First from './src/components/First';
-import { View, Button, Text, StatusBar } from 'react-native';
+import { View, Button, Text, StatusBar } from 'react-native'; 
+// import { Provider } from 'react-redux';
 // import OnPress from './src/components/OnPress';
 // import UseStateHooks from './src/components/UseStateHooks'
 // import Props from './src/components/Props'
@@ -29,7 +30,9 @@ import { View, Button, Text, StatusBar } from 'react-native';
 // import Search from './src/components/Search'
 // import AsyncStorageExample from './src/components/AsyncStorageExample'
 // import ImageComponentExample from './src/components/ImageComponentExample'
-import Parent from './src/components/Parent'
+// import Parent from './src/components/Parent'
+// import Counter from './src/components/Counter'
+
 
 
 
@@ -74,7 +77,11 @@ const App = () => {
       {/* <Search /> */}
       {/* <AsyncStorageExample /> */}
       {/* <ImageComponentExample /> */}
-      <Parent />
+      {/* <Parent /> */}
+
+      {/* <Provider store={store} ></Provider> */}
+
+      {/* <Counter /> */}
 
 
   
